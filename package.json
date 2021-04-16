@@ -1,0 +1,29 @@
+{
+  "name": "country-data-query",
+  "version": "1.0.0",
+  "description": "Easy and powerful library for query complex country and regions data in simple and effective way by country code, currency code, dial code in various filters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inhank/country-query.git"
+  },
+  "keywords": [
+    "country-data-query",
+    "country-region-data",
+    "countries",
+    "regions",
+    "country-data",
+    "region-data",
+    "dial-codes",
+    "currency-codes"
+  ],
+  "author": "Jogi Prasad Pakki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/inhank/country-query/issues"
+  },
+  "homepage": "https://inhank.com"
+}
