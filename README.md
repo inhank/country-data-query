@@ -23,17 +23,16 @@ const countryDataQuery = require('country-data-query'); //es5 method
 ### Query data
 
 Data can query by the method **countryDataQuery(queryParams)** and
-**queryParams** is just json object itbe constructed by
+**queryParams** is just json object it will be constructed by
 in following ways.
 
 - List all countries
   ```javascript
   {
-    country: {
-    }
+    country: {}
   }
   ```
-- Get country by options
+- Get country by filters
 
   ```javascript
   //type is must be in countrycode, dialcode and currencycode
@@ -46,8 +45,8 @@ in following ways.
 
   ```javascript
   {
-      country:{type:"countrycode",value:"IN"},
-      region:{}
+    country:{type:"countrycode",value:"IN"},
+    region:{}
   }
   ```
 
