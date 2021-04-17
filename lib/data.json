@@ -844,7 +844,7 @@
       { "name": "Zhejiang", "code": "33" }
     ],
     "dial_code": "+86",
-    "currency": { "code": "CNY", "name": "Chinese Yuan", "symbol": "CN¥" },
+    "currency": { "code": "CNY", "name": "Chinese Yuan", "symbol": "¥" },
     "name": "China",
     "code": "CN"
   },

@@ -1,11 +1,9 @@
 {
   "name": "country-data-query",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy and powerful library for query complex country and regions data in simple and effective way by country code, currency code, dial code in various filters.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inhank/country-query.git"

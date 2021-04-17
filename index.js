@@ -2,8 +2,8 @@ const rawData = require("./lib/data.json");
 //prettier --write .
 
 function countryDataQuery(params) {
-  let data = [...rawData];
-  let finalData;
+  let data = JSON.parse(JSON.stringify(rawData)) //safely clone array for edit end result to avoid object break
+  let finalData = [];
   let countryIndex = -1;
   let regionIndex = -1;
   let countryData = [];
@@ -84,12 +84,12 @@ function countryDataQuery(params) {
   if (countryIndex !== -1 && regionIndex !== -1) {
     finalData = [data[countryIndex].regions[regionIndex]];
   } else {
-    finalData = countryData;
-    //remove regions
+    finalData = countryData
     finalData.forEach((e) => {
       delete e.regions;
     });
   }
   return finalData;
 }
+
 module.exports = countryDataQuery;

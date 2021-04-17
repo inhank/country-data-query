@@ -38,7 +38,7 @@ in following ways.
   //type is must be in countrycode, dialcode and currencycode
   {country:{type:"countrycode",value:"IN"}} //or
   {country:{type:"dialcode",value:"+91"}} //or
-  {country:{type:"currencycode",value:"INR"}} //or
+  {country:{type:"currencycode",value:"INR"}}
   ```
 
 - List country all regions
@@ -77,7 +77,7 @@ The data returned by this library in following pattern
     name: "India",
     code: "IN",
   },
-];
+]
 ```
 
 **Region data**
@@ -88,5 +88,10 @@ The data returned by this library in following pattern
     name: "Andhra Pradesh",
     code: "AP",
   },
-];
+]
 ```
+## Whats new
+**1.0.2**
+
+* Removed critical bug of array cloning method that cause break the data object. 
+* Updated china yuan sign.
