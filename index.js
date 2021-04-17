@@ -1,10 +1,13 @@
-const data = require("./lib/data.json");
+const rawData = require("./lib/data.json");
 //prettier --write .
 
 function countryDataQuery(params) {
+  let data = [...rawData];
+  let finalData;
   let countryIndex = -1;
   let regionIndex = -1;
   let countryData = [];
+
 
   //Check if country param available if check type return index
   if (params.country) {
@@ -76,8 +79,6 @@ function countryDataQuery(params) {
       return [];
     }
   }
-
-  let finalData;
 
   //if query single region or else single country
   if (countryIndex !== -1 && regionIndex !== -1) {

@@ -55,7 +55,7 @@ in following ways.
   ```javascript
   countryDataQuery({
      country:{type:"countrycode",value:"IN"},
-     region:{type:"code","AP"}
+     region:{type:"code",value:"AP"}
   })
   ```
 
