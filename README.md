@@ -91,6 +91,19 @@ The data returned by this library in following pattern
 ]
 ```
 ## Whats new
+
+**1.0.3**
+***Released on Aug 11, 2021***
+* Removed and updated wrong iso codes
+1. Telangana TS into TG
+2. Sikkim WK into SK
+* Merged Dadra and Nagar Haveli and Daman and Diu as single region in India.
+* Added Ladakh union territory.
+* References
+1. https://en.wikipedia.org/wiki/ISO_3166-2:IN
+2. https://en.wikipedia.org/wiki/States_and_union_territories_of_India
+
+
 **1.0.2**
 
 * Removed critical bug of array cloning method that cause break the data object. 
